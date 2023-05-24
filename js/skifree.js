@@ -13,7 +13,7 @@
   const FLARE = new Audio('./sfx/flare.wav');
   let OBSTACLE_CLASSES = []
   
-  OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(100).fill("tree"));
+  OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(200).fill("tree"));
   OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(20).fill("big_tree"));
   OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(10).fill("flame_brush"));
   OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(10).fill("tree_trunk"));
@@ -24,11 +24,11 @@
   OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(1).fill("nath"));
   OBSTACLE_CLASSES = OBSTACLE_CLASSES.concat(Array(1).fill("coelinho"));
   
-  const FPS = 60;
+  const FPS = 70;
   const TAMX = 800;
   const TAMY = 600;
-  const PROB_OBSTACLE = .5;
-  const OVERFLOW_LIMIT_LEFT = 80;
+  const PROB_OBSTACLE = .99;
+  const OVERFLOW_LIMIT_LEFT = 590;
   const OVERFLOW_LIMIT_RIGHT = TAMX - OVERFLOW_LIMIT_LEFT;
   let speed = 2;
   let overflow = false;
@@ -315,8 +315,9 @@
     this.element = document.createElement('div');
     hill.element.appendChild(this.element);
     this.element.className = OBSTACLE_CLASSES[Math.floor(Math.random() * OBSTACLE_CLASSES.length)];
+    this.element.style.filter = `hue-rotate(${(Math.random()*50)*(Math.random() > 0.5? -1: 1)}deg)`;
     this.element.style.top = TAMY + "px";
-    this.element.style.left = (-500 + Math.floor(Math.random() * TAMX) + 500) + "px";
+    this.element.style.left = (Math.floor(Math.random() * TAMX + 100) * Math.floor(Math.random() > 0.5? +1 : -1)) + "px";
     this.computedStyle = window.getComputedStyle(this.element, null);
     this.notEroded = true;
     this.notSafe = true;
@@ -409,7 +410,7 @@
     let nextItObstacles = [];
     let positionSkier = skier.getPosition();
     
-    if (random <= PROB_OBSTACLE * 70 * speed) {
+    if (random <= PROB_OBSTACLE * 95 * speed) {
       var obstacle = new Obstacle();
       obstacles.push(obstacle);
     }
