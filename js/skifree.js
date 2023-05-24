@@ -89,7 +89,7 @@
     this.element = document.getElementById('panel');
     
     this.refresh = (skier) => {
-      this.element.innerHTML = `<b>Distância</b></br>${skier.distance}<br><b>Velocidade</b></br>${speed * 10}km/h</br><b>Estabilidade</b></br><div class='stability' style='width:${skier.stability}%;background-color:${skier.stability > 20 ? 'aqua' : 'red'}'></div></br><br><img src='./css/heart.png' width='25px' height='25px'/>${skier.lifes}`;
+      this.element.innerHTML = `<b>Distância</b></br>${skier.distance}<br><b>Velocidade</b></br>${speed * 10}km/h</br><b>Estabilidade</b></br><div class='stability' style='width:${skier.stability}%;background-color:${skier.stability > 20 ? 'aqua' : 'red'}'></div></br><br>❤️${skier.lifes}`;
     }
     
     this.finalPuntuaction = (pt) => {
