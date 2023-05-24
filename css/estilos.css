@@ -1,0 +1,340 @@
+.queda{
+   background-image: url(skier.png);
+   background-position: -84px -320px;
+   width: 32px;
+   height: 25px;
+}
+
+.raw-died {
+   background-image: url(skier.png);
+   background-position: -242px -270px;
+   width: 30px;
+   height: 29px;
+}
+
+.para-esquerda {
+   background-image: url(skier.png);
+   background-position: -26px -43px;
+   width: 22px;
+   height: 28px;
+}
+
+.para-direita {
+    background-image: url(skier.png);
+    background-position: -26px -6px;
+    width: 22px;
+    height: 28px;
+ }
+
+.para-frente {
+   background-image: url(skier.png);
+   background-position: -67px -2px;
+   width: 15px;
+   height: 32px;
+}
+
+.info {
+    position: absolute;
+    background-image: url(obstacles.png);
+    background-position: -85px -183px;
+    width: 116px;
+    height: 100px;
+ }
+
+ .flare_on{
+    position: absolute;
+    background-image: url(obstacles.png);
+    background-position: -273px -143px;
+    width: 60px;
+    height: 60px;
+ }
+
+.flare {
+    position: absolute;
+    background-image: url(obstacles.png);
+    background-position: -202px -143px;
+    width: 60px;
+    height: 60px;
+ }
+
+.nath {
+    position: absolute;
+    background-image: url(obstacles.png);
+    background-position: -217px -203px;
+    width: 116px;
+    height: 77px;
+ }
+
+ .coelinho{
+     position: absolute;
+    background-image: url(obstacles.png);
+    background-position: -0px -170px;
+    width: 74px;
+    height: 40px;
+ }
+
+.dog{
+   background-image: url(skier.png);
+   background-position: -48px -208px;   
+   width: 14px;
+   height: 15px;   
+   position: absolute;
+}
+
+.dog_move_1{
+    background-image: url(skier.png);
+    background-position: -23px -208px;   
+    width: 21px;
+    height: 15px;   
+    position: absolute;
+}
+
+.dog_move_2{
+    background-image: url(skier.png);
+    background-position: 0px -208px;   
+    width: 21px;
+    height: 15px;   
+    position: absolute;
+}
+
+.rock{
+   background-image: url(obstacles.png);
+   background-position: -30px -31px;   
+   width: 28px;
+   height: 32px;   
+   position: absolute;
+}
+.tree_trunk{
+   background-image: url(obstacles.png);
+   background-position: -254px -31px;   
+   width: 17px;
+   height: 32px;   
+   position: absolute;
+}
+
+.big_tree {
+   background-image: url(obstacles.png);
+   background-position: -96px -66px;   
+   width: 32px;
+   height: 64px;   
+   position: absolute;
+}
+
+.tree {
+   background-image: url(obstacles.png);
+   background-position: -0px -31px;   
+   width: 28px;
+   height: 32px;   
+   position: absolute;
+}
+
+.flame_brush{
+    background-position: -24px -103px;
+    position: absolute;
+    background-image: url(obstacles.png);
+    width: 22px;
+    height: 27px;
+}
+
+
+.flame_brush_2{
+    background-position: -48px -103px;
+    position: absolute;
+    background-image: url(obstacles.png);
+    width: 22px;
+    height: 27px;
+}
+
+
+.flame_brush_3{
+    background-position: -72px -103px;
+    position: absolute;
+    background-image: url(obstacles.png);
+    width: 22px;
+    height: 27px;
+}
+
+
+.flame_brush_off{
+    background-position: 0px -103px;
+    position: absolute;
+    background-image: url(obstacles.png);
+    width: 22px;
+    height: 27px;
+}
+
+.flame_brush{
+    background-position: -24px -103px;
+    position: absolute;
+    background-image: url(obstacles.png);
+    width: 22px;
+    height: 27px;
+}
+
+.mushroom{
+
+    background-position: -271px -52px;
+    position: absolute;
+    background-image: url(obstacles.png);
+    width: 8px;
+    height: 11px;
+}
+
+.iceman_stuned{
+
+    background-position: -122px -408px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 23px;
+    height: 41px;
+}
+
+.iceman_rstep1{
+   
+    background-position: -64px -112px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 25px;
+    height: 43px;
+}
+
+.iceman_rstep2{
+
+    background-position: -91px -112px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 30px;
+    height: 43px;
+}
+
+.iceman_fstep1{
+   
+    background-position: -129px -158px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 28px;
+    height: 43px;
+}
+
+.iceman_fstep2{
+
+    background-position: -159px -158px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 28px;
+    height: 37px;
+}
+
+.iceman_lstep1{
+   
+    background-position: -66px -158px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 25px;
+    height: 43px;
+}
+
+.iceman_lstep2{
+
+    background-position: -91px -158px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 30px;
+    height: 43px;
+}
+
+.iceman_eating1{
+
+    background-position: -123px -113px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 32px;
+    height: 42px;
+}
+
+
+.iceman_eating2{
+
+    background-position: -157px -113px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 29px;
+    height: 42px;
+
+
+}
+
+.iceman_eating3{
+
+    background-position: -188px -113px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 29px;
+    height: 42px;
+}
+.iceman_eating4{
+
+    background-position: -218px -113px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 25px;
+    height: 42px;
+}
+
+.iceman_eating5{
+
+    background-position: -244px -113px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 26px;
+    height: 42px;
+}
+
+.iceman_eating6{
+
+    background-position: 0px -159px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 26px;
+    height: 42px;
+}
+
+.iceman_eating7{
+
+    background-position: -34px -113px;
+    position: absolute;
+    background-image: url(skier.png);
+    width: 28px;
+    height: 42px;
+}
+
+.stability{
+    border: 1px bold black;
+    background-color: aqua;
+    height: 1em;
+    align-content: center;
+    text-align: center;
+}
+
+
+#montanha {
+   border: 1px solid black;
+   position: relative;
+   overflow: hidden;
+   float: left;
+}
+
+#skier {
+   position: absolute;
+}
+
+
+#panel{
+    width: 20em;
+    height: 13em;
+    border: 1px solid;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    float: left;
+}
